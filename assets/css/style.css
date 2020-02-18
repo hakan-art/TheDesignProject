@@ -255,6 +255,11 @@ input[type="button"]
     font-size: 2em;
     margin-top: 4vh;
     margin-bottom: 20vh;
+    border-radius: 5px;
+}
+input[type="button"]:hover
+{
+    background: linear-gradient(150deg, rgba(255,53,113,1) 1%, rgba(60,48,255,1) 63%);
 }
 .ende{
     align-self: flex-start;
