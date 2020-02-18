@@ -187,6 +187,7 @@ h5{
 {
     width: 40vw;
 }
+
 .stepeins
 {
     display: flex;
@@ -202,7 +203,7 @@ h5{
     width: 40vw;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: -5vw;
+    margin-left: 1vw;
    
 
 }
@@ -211,6 +212,7 @@ h5{
     margin: 0;
     color: #dddddd;
     margin-bottom: 8vh;
+    font-size: 10vh;
 }
 .augen
 {
@@ -223,6 +225,7 @@ h5{
     padding-top: 2vh;
     margin-bottom: 2vh;
 }
+
 .paragraph_step
 {
     line-height: 5vh;
