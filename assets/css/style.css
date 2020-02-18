@@ -1,1 +1,269 @@
-header
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    height: 100vh;
+    background: url(../img/ilustracion_people.png), url(../img/ilustracion1.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    
+   
+    
+}
+.logo_schrift
+{   
+    display: flex;
+    margin-left: 2em;
+    flex-wrap: wrap;  
+    margin-left: 3em;
+    padding-top: 4em;
+}
+span
+{
+    margin-left: 1em;
+}
+.logo
+{
+    width: 3em;
+}
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+h6
+{
+    font-size: 1.5em;
+}
+.text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    justify-content: center;
+    height: 100vh;
+    margin-left: 15em;
+    margin-top: 10em;
+}
+h1{
+    font-size: 7vh;
+}
+p
+{
+    font-size: 2.3vh;
+    margin-top: 1em;
+}
+.rocket
+{
+    width: 2vw;
+}
+.scroll
+{
+    text-decoration: none;
+    color: #ff3571;
+    font-size: 1.5em;
+    margin-top: 9em;
+}
+.galarie
+{
+    background: url(../img/images.jpg) center/contain no-repeat;
+    height: 90vh;
+    margin-top: 10em;
+}
+.idea
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20em;
+}
+section
+{
+    display: flex;
+}
+h2
+{
+    font-size: 6em;
+    margin-left: 7vw;
+}
+.icon
+{
+    height: 6em;
+    margin-left: -4em;
+}
+.idea_paragraph
+{
+    width: 35em;
+    font-size: 2em;
+    line-height: 2em;
+}
+.headline
+{
+    margin-top: 25vh;
+    margin-left: 4vw;
+
+}
+.init_icon
+{
+    height: 3em;
+}
+article
+{
+    display: flex;
+  
+       
+}
+h4
+{
+    font-size: 2em;
+    padding-left: 1em;
+   align-self: flex-end;
+   font-weight: bold;
+  
+}
+
+.paragraph_icons
+{
+    width: 22.5em;
+    font-size: 1.8em;
+    padding-left: 2.7em;
+    margin-bottom: 5em;
+    line-height: 5vh;
+}
+.four_icons
+{   width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15vh;
+   margin-left: -8vw;
+
+}
+.wrap
+{
+    margin-left: 13vw;
+}
+.zwei
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 15vh;
+}
+.are_you
+{
+    margin: 0;
+}
+h5{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5vh;
+    line-height: 4vh;
+    
+}
+.step_eins
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    
+}
+.step_zwei
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.step1
+{
+    width: 40vw;
+}
+.stepeins
+{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+
+}
+.stepzwei
+{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -5vw;
+   
+
+}
+.zahl
+{
+    margin: 0;
+    color: #dddddd;
+    margin-bottom: 8vh;
+}
+.augen
+{
+    margin-bottom: 5vh;
+}
+.find
+{
+    margin: -1.4vw;
+    align-self: flex-start;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+.paragraph_step
+{
+    line-height: 5vh;
+}
+form
+{
+    margin-top: 10vh;
+}
+input[type="text"]
+{
+    width: 35vw;
+    height: 8vh;
+    border: none;
+    box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.2);
+    
+}
+::placeholder
+{
+    color: #666666;
+    text-align: center;
+    font-size: 2em;
+}
+input[type="button"]
+{
+    border: 0px solid;
+    background: #ff3571;
+    margin-left: 8vw;
+    padding: 2vh 6vw;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 4vh;
+    margin-bottom: 20vh;
+}
+.ende{
+    align-self: flex-start;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    font-weight: 100;
+}
+.herz
+{
+    width: 1.5vw;
+    padding-left: 0.5vw;
+}
